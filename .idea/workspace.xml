@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c993499b-bb77-4911-a9f4-cac4f63ba4fa" name="Default Changelist" comment="V1 de de L'API, TTS">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c993499b-bb77-4911-a9f4-cac4f63ba4fa" name="Default Changelist" comment="V1 de de L'API, TTS" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +12,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="JupyterTrust" id="debebcc2-533b-457e-b792-0196da5c12a9" />
   <component name="MarkdownSettingsMigration">
@@ -35,6 +36,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -77,6 +79,7 @@
       <workItem from="1602012263964" duration="1343000" />
       <workItem from="1602689927877" duration="943000" />
       <workItem from="1676460596009" duration="1412000" />
+      <workItem from="1676463296882" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="V1 de de L'API, TTS">
       <created>1676461888672</created>

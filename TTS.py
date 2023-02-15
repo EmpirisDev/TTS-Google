@@ -4,11 +4,14 @@ import os
 # Spécifie le fichier d'authentification pour Google Cloud
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "GoogleCloudAuthKey.json"
 
+# Spécifie le texte à synthétiser
+intput = "Ta grosse mère ?"
+
 # Instantie le client TextToSpeech
 client = texttospeech.TextToSpeechClient()
 
-# Spécifie le texte à synthétiser
-synthesis_input = texttospeech.SynthesisInput(text="Ta grosse mère ?")
+# Syntétise le texte
+synthesis_input = texttospeech.SynthesisInput(text=intput)
 
 # Spécifie les paramètres de la voix (ici, en français)
 voice = texttospeech.VoiceSelectionParams(
