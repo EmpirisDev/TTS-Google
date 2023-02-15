@@ -5,12 +5,12 @@ import os
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "GoogleCloudAuthKey.json"
 
 # Spécifie le texte à synthétiser
-intput = "Ta grosse mère ?"
+intput = "test"
 
 # Instantie le client TextToSpeech
 client = texttospeech.TextToSpeechClient()
 
-# Syntétise le texte
+# Sywith open("audio/output.wav", "wb") as out:ntétise le texte
 synthesis_input = texttospeech.SynthesisInput(text=intput)
 
 # Spécifie les paramètres de la voix (ici, en français)
@@ -31,8 +31,6 @@ response = client.synthesize_speech(
     voice=voice,
     audio_config=audio_config
 )
-
-# Le contenu audio de la réponse est binaire, donc on l'écrit dans un fichier "output.wav"
-with open("output.wav", "wb") as out:
+filename = "output.wav"
+with open(filename, "wb") as out:
     out.write(response.audio_content)
-    print('Le contenu audio a été écrit dans le fichier "output.wav"')
